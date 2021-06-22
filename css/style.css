@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+
+body{
+    background-color: rgb(250, 248, 248);
+    font-family: 'Comfortaa', cursive;}
+
+
+/* ----------------------------------- HEADER --------------------------------------------------- */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #55308f; 
+    width: 100%;
+    height: 150px;
+    padding: 25px;
+    position: fixed;
+    z-index: 2;}
+
+
+.icones{
+    position: absolute;
+    right: 30px;
+    top: 50px;} 
+
+
+#logo{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    left: 40px;
+    font-family: 'Orbitron', sans-serif;
+    color:#ebad2a;
+    font-size: 32px;}
+
+
+.menu{
+    position: relative;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ebad2a;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(253, 252, 249);
+    font-size: 18px; }
+
+
+.menu:hover{    
+    background: #5614B0; 
+    background: -webkit-linear-gradient(to right, #fad688, #7a3cd1); 
+    background: linear-gradient(to right, #fad688, #7a3cd1); 
+    border: none;}
+
+
+/* ----------------------------------- CONTEUDO PRINCIPAL MAIN --------------------------------------- */
+
+.container_geral{
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: auto;}
+
+
+main{
+    width: 950px;
+    background-color: white;
+    margin-top: 180px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 5%);}
+
+
+.banner{
+    width: 100%;}
+
+
+.materia_principal{
+    padding: 25px;}
+
+
+p{
+    text-align: left;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 300;}
+    
+h1{
+    color: #460e8b;
+    text-align: center;
+    font-size: 28px;
+    font-weight:700;}
+    
+    
+h2{
+    color: #460e8b;
+    text-align: center;
+    font-size: 24px;
+    font-weight:700;}
+    
+    
+hr{
+    border: 1px solid; 
+    border-color:#460e8b;}
+    
+
+
+/* ---------------------------------------- ASIDE ----------------------------------------------- */
+
+aside{
+    width: 400px;
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;}
+
+
+.aside_dicas{
+    background-color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #460e8b;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 5%);}
+
+
+p.aside {
+    font-size: 16px;
+    padding: 20px;}
+
+
+.cabecalho_aside{
+    line-height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;}
+    
+
+.aside1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    font-size: 16px; 
+    padding: 20px;}
+
+
+iframe{
+    width: 360px;
+    height: 250px;}
+
+/* -----------------------------------  FORMULARIO DA NEWSLETTER ---------------------------------------------------- */
+
+
+input[type="email"]{
+    border-radius: 5px;
+    border: 1px solid #9082a1;
+    padding: 2px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);}
+
+
+.titulo{
+    color: #55308f;
+    font-size: 18px;}
+
+/* ----------------------------------- FORMULARIO DE CONTATO------------------------------------------- */
+
+
+.contato{
+    display: flex;
+    padding: 25px;
+    justify-content: center;}
+
+.div_formulario{
+    padding: 30px;}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    text-align: left;
+    color: #622fa0;
+    padding: 25px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 300;}
+
+
+input[type="text"], input[type="email"], input[type="tel"], textarea, buttom{
+    border-radius: 5px; 
+    border: 1px solid #9a8eaa;
+    padding: 2px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);}
+
+    
+input[type="text"], input[type="email"], input[type="tel"]{
+    width: 350px;
+    height: 28px;}
+
+.botao_contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;}
+
+
+.botao{
+    font-size: 16px;
+    background-color: #e2d6ec;
+    border: 0;
+    color: #460e8b;
+    padding: 7px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    position: relative;
+    border-radius: 5px;}
+
+.botao:hover{
+    background-color: #55308f;
+    color: white;} 
+
+
+/* --------------------------------- FOOTER ------------------------------------------- */
+
+
+footer{
+    background-color:rgb(246, 246, 246);
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid #7d6e91;
+    margin: auto;
+    padding: 25px;
+    text-align: center;}
+
+
+li{
+    list-style: none;
+    color: #460e8b;
+    font-weight: 400;
+    line-height: 24px;}
+
+
+.logowhats{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 3;}
+
+/* -------------------------------------PÁGINA DE CRÉDITOS ------------------------------------------------- */
+
+.creditos{
+   padding: 40px;}
+
+
+.creditos_sub{
+    text-align: left;}
+
+
